@@ -4,20 +4,14 @@ import { useEffect, useRef } from "react";
 
 function Main(){
 
-    
-    
     return(
-        <div className=" h-screen  text-center relative">
-            <div className="container h-1/6 flex justify-center items-center">
-                <span className="text-white container text-2xl">Hello World</span>
+        <div className=" h-screen w-full flex-col mt-24 text-center ">
+            <div className=" w-full h-1/6  w-full ">
+                <h2 className="text-white  text-2xl">Hello World</h2>
             </div>
-            <div className="container h-1/3">
-                <h1 className="text-white font-bold text-7xl">Matt Sandoval Balada</h1>
+            <div className=" h-1/2 w-full">
+                <h1 className="text-white font-bold text-5xl sm:text-7xl">Mateu Sandoval</h1>
                 <h4 className="text-white mt-20 text-xl">Full-Stack Developer</h4>
-            </div>
-            <div className=" container h-1/2 flex justify-center items-center gap-32">
-                <button className="text-white rounded-lg bg-green-400 w-20 h-10"><a>CV</a></button>
-                <button className="text-white rounded-lg bg-blue-900 w-20 h-10"><a>Let's Talk</a></button>
             </div>
         </div>
     )

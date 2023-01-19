@@ -1,14 +1,10 @@
 
 
-
-
-
-
-function AboutMe (){
-        return(
-            <div className="container h-screen">
-
-            </div>
-        )
+function AboutMe() {
+  return (
+    <div className="">
+      
+    </div>
+  );
 }
 export default AboutMe;
